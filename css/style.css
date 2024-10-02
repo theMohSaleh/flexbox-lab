@@ -12,14 +12,7 @@ nav {
     background-color: white;
     padding: 8px 16px;
     display: flex;
-}
-
-#destinations {
-
-}
-
-#actions {
-
+    justify-content: space-between;
 }
 
 p {
@@ -60,6 +53,11 @@ input {
 main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 nav button {
@@ -80,6 +78,8 @@ nav button {
 
 .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-footer * {
@@ -89,6 +89,8 @@ nav button {
 #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 #subnav button {
@@ -103,4 +105,35 @@ nav button {
     color: black;
     border-radius: 50px;
     padding: 6px 15px;
+}
+
+#destinations {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+#actions {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 460px;
+}
+
+#trending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 60px; */
+    gap: 12px;
 }
